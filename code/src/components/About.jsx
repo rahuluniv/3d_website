@@ -45,12 +45,16 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[19px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Software Developer/ Data Analyst. I'm a recent Graduate from University of Alberta bringing forth a motivated attitude and a variety of powerful skills. 
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      Hey, I'm Rahul - your tech maestro! 👨‍💻🚀
+
+      I hold a degree in Computing Science 🎓 from the University of Alberta, and I've mastered the art of turning caffeine into code! ☕💫 
+      My coding toolkit boasts Python 🐍, Java ☕, and JavaScript 🌐 etc 💻. I'm your code enthusiast, turning tech dreams into reality and transforming complex challenges into elegant lines of code! 🪄✨
+
+      Currently, I'm on a mission to turn complex challenges into beautiful code, and I'm eagerly seeking thrilling collaborations! 🚀
+
+      Let's sprinkle some coding stardust together – reach me at rahulsin@ualberta.ca, and let the tech adventures begin! 🌟👩‍💻
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
