@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Tilt } from "react-tilt";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas,Skills } from "./components";
 
 const App = () => {
   return (
@@ -13,8 +13,10 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
+        <Skills />
         <Works />
         <Feedbacks />
+  
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
