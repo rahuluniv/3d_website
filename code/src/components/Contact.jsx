@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_uwnq93n',
+        'template_b7108qs',
         {
           from_name: form.name,
           to_name: "Rahul_Bains",
@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "rahulsin@ualberta.ca",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'LS3UBHaafTBPq_AqX'
       )
       .then(
         () => {
